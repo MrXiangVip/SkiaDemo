@@ -1,0 +1,4 @@
+cmake-build-debug/
+.idea/
+3rdPart/lib/linux/x64/Shared/libskia.so
+3rdPart/lib/linux/x64/Static/libskia.a
