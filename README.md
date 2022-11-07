@@ -9,8 +9,9 @@ A demo of Skia  on Ubuntu
     ubuntu 20.04 
     需要安装sdl2 的库
     sudo apt-get install libsdl2-dev
-    
-
+    这两个库 要到下方博文提供的百度网盘下载,github无法上传
+    3rdPart/lib/linux/x64/Shared/libskia.so
+    3rdPart/lib/linux/x64/Static/libskia.a
 开发工具：
 
     Clion
