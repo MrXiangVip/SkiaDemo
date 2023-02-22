@@ -51,9 +51,26 @@ SkBitmap draw(int w, int h) {
     paint.setTextSize(60);
     //绘制字体
     canvas.drawString("Hello Skia", 300, 150, paint);
+
+
     //返回SkBitmap对象
     return bitmap;
 }
+
+//int draw2( ){
+//    SkBitmap bitmap;
+//    //FILE *p = fopen("E:\\test.png", "r");
+//    bool ret = SkImageDecoder::DecodeFile("E:\\test.png", &bitmap);
+//    if(ret){
+//        SkPicture picture;
+//        SkCanvas* pCanvasLgy = picture.beginRecording(44 +bitmap.width(), 28 + bitmap.height());
+//        pCanvasLgy->drawBitmap(bitmap, 44, 28);
+//        picture.endRecording();
+//        canvas->drawPicture(picture);
+//    }
+//}
+
+
 
 //通过SDL_Surface创建SDL_Rect
 SDL_Rect create_rect(SDL_Surface *surface) {

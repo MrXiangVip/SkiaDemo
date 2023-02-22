@@ -26,7 +26,7 @@ include_directories( 3rdPart/include
         3rdPart/include/views)
 link_directories( 3rdPart/lib/linux/x64/Shared)
 
-add_executable(SkiaDemo main.cpp)
+add_executable(SkiaDemo main5.cpp)
 
 target_link_libraries(SkiaDemo skia)
 target_link_libraries(SkiaDemo SDL2)

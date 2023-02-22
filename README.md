@@ -19,10 +19,16 @@ A demo of Skia  on Ubuntu
 运行方法:
 
     将项目导入 Clion 直接运行
+
+
+   
     
  参考资料：
  
     // 在作者提供的库的基础上修改了CMakeLists
     https://www.jianshu.com/u/d1c80af6dbe9
-    // 
+    // 作者的skia 库
     https://github.com/var-rain/skia_full
+    //SDL 官网地址
+    https://www.libsdl.org/
+    https://github.com/libsdl-org/SDL
